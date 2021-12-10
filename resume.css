@@ -1,0 +1,162 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/1567666.png');
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    /* font-size: large; */
+}
+
+.material-icons {
+    font-size: 400px;
+}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1%;
+    text-decoration: none;
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.guide {
+    margin-right: 40px;
+}
+
+#topBtn {
+    font-size: 40px;
+    position: fixed;
+    color: rgb(41, 41, 78);
+    border: 2px solid rgba(66, 66, 66, 0.671);
+    background-color: rgba(255, 255, 255, 0.918);
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    right: 60px;
+    bottom: 100px;
+}
+
+#topBtn:hover {
+    box-shadow: 0 10px 20px rgba(194, 194, 194, 0.788);
+}
+
+.head {
+    text-align: center;
+}
+
+.main {
+    border: 2px solid rgba(134, 134, 134, 0.815);
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 5%;
+}
+
+.mainsquare {
+    border: 2px solid rgba(66, 66, 66, 0.671);
+    background-color: rgba(34, 33, 46, 0.521);
+    margin: 1%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    backdrop-filter: blur(4px);
+}
+
+#my_pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+
+.guidesect {
+    /* margin-top: 0px; */
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+.guide a {
+    color: whitesmoke;
+    border: 2px solid rgba(66, 66, 66, 0.671);
+    background-color: rgba(34, 33, 46, 0.918);
+    text-decoration: none;
+    font-size: larger;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 3px;
+    margin-top: 20px;
+}
+
+#name {
+    font-size: 40px;
+}
+
+.guide a:hover {
+    box-shadow: 0 10px 20px rgba(83, 108, 136, 0.575);
+    background: linear-gradient(to right, rgba(85, 163, 207, 0.685), rgba(189, 189, 189, 0.651));
+}
+
+.head1 {
+    text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.575);
+
+}
+
+.fa-github {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.fa-linkedin {
+    background: #0091ff;
+    color: white;
+}
+
+.fa-envelope {
+    background: white;
+    color: red;
+}
+
+.contact {
+    text-align: center;
+}
